@@ -6,12 +6,12 @@ function Service (){
             <Navbar />
             <h1>This is service page</h1>
             <div id="ser-div">
-            <button className="ser-btn">this is first button</button>
-            <button className="ser-btn">this is second button</button>
-            <button className="ser-btn">this is third button</button>
+            <button className="ser-btn">POACHER DETECTION</button>
+            <button className="ser-btn">FOREST FIRE ALERT</button>
+            <button className="ser-btn">FLOOD ALERT</button>
             </div>
         </>
-    )
+    );
 }
 
 export default Service;

@@ -12,8 +12,8 @@ function Home (){
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, nisi.</p>
                 <div className="btn-box">
 
-                    <a href="/" className="btn">Login</a>
-                    <a href="/" className="btn">Register</a>
+                    <a href="/login" className="btn">Login</a>
+                    <a href="/signup" className="btn">Register</a>
                     
                 </div>
             </div>
