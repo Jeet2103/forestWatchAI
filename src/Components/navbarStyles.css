@@ -54,7 +54,7 @@
     display: none;
 }
 
-button {
+#nav-btn {
     padding: 0.5rem 1rem;
     white-space: nowrap;
     border-radius: 0.3rem;
@@ -64,7 +64,7 @@ button {
     cursor: pointer;
     transition:  0.2s ease-in-out;
 }
-button:hover{
+#nav-btn:hover{
     background-color: #151516;
     color: #fff;
 }
@@ -113,7 +113,7 @@ button:hover{
         transition: none;
     }
 
-    button{
+    #nav-btn{
         display: none;
     }
 
