@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Components/Navbar";
 import "./Home.css";
+import Footer from "../Components/Footer";
 
 function Home() {
   return (
@@ -59,6 +60,7 @@ function Home() {
         </section>
         
       </div>
+      <Footer/>
     </>
   );
 }
