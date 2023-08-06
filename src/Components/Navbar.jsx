@@ -29,7 +29,7 @@ class Navbar extends Component {
                     }
                     )}
                     
-                    <a href="/signup"><button>Sign Up</button></a>
+                    <a href="/signup"><button id="nav-btn">Sign Up</button></a>
                 </ul>
 
             </nav>
