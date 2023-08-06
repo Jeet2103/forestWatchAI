@@ -29,7 +29,11 @@ class Navbar extends Component {
                     }
                     )}
                     
+<<<<<<< HEAD
+                    <a href="/signup"><button id="nav-btn">Sign Up</button></a>
+=======
                     <button id="nav-btn">Sign Up</button>
+>>>>>>> 0e6bdd6b5d9944ecc4e2be1e73d89abe45dcdb44
                 </ul>
 
             </nav>
