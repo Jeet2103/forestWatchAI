@@ -1,0 +1,123 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      /* Global styles */
+      body {
+        scroll-behavior: smooth;
+      }
+      
+      #main {
+        width: 100%;
+      }
+      
+      /* Page styles */
+      .page {
+        width: 100%;
+        height: 100vh;
+      }
+      
+      /* Hero section */
+      .hero {
+        background-image: url("./src/assets/home-hero.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      #heading {
+        text-align: center;
+      }
+      
+      #heading h1 {
+        font-size: 5.5vw;
+        line-height: 1;
+        font-weight: 900;
+      }
+      
+      .btn-box {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+      }
+      
+      .btn {
+        height: 2.4rem;
+        width: 9rem;
+        border: 2px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0.5rem;
+        color: black;
+        background-color: rgb(8, 201, 201);
+        text-decoration: none;
+        transition: 0.3s ease-in;
+      }
+      
+      .btn:hover {
+        background-color: rgba(246, 250, 190, 0.861);
+        box-shadow: 2.5px 2.5px rgb(239, 226, 226);
+      }
+      
+      /* page-2 */
+      #page-2 {
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* page-3 */
+
+      #page-3 {
+        background-color: rgba(51, 43, 43, 0.936);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+
+      /* page-4 */
+      
+      #page-4{
+        display: flex;
+        flex-direction: column;
+        background-color: chocolate;
+      }
+
+      #page4-con{
+        margin-top:7rem ;
+      }
+
+      #map-weather-section{
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      #map-box{
+        height: 30rem;
+        width: 50rem;
+        border: 2px solid black;
+        margin-left: 2rem;
+        background-color: aquamarine;
+      }
+
+      #weather-box{
+        height: 30rem;
+        width: 31rem;
+        border: 2px solid black;
+        margin-right: 2rem;
+        background-color: rgb(10, 169, 116);
+      }
