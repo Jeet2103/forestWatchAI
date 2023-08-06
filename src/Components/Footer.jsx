@@ -15,7 +15,11 @@ function Footer() {
                     <ul>
                         <li><a href="/">Home</a></li>
                         <li><a href="/about">About Us</a></li>
+<<<<<<< HEAD
                         <li><a href="/service">Services</a></li>
+=======
+                        <li><a href="/services">Services</a></li>
+>>>>>>> 0e6bdd6b5d9944ecc4e2be1e73d89abe45dcdb44
                         <li><a href="/contact">Contact Us</a></li>
                     </ul>
                 </div>
@@ -47,4 +51,8 @@ function Footer() {
     );
 }
 
+<<<<<<< HEAD
 export default Footer; 
+=======
+export default Footer;
+>>>>>>> 0e6bdd6b5d9944ecc4e2be1e73d89abe45dcdb44

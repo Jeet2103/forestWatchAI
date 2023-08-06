@@ -16,10 +16,17 @@ function Home() {
             <h1>Welcome to ForestWatchAI Website</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam, nisi.</p>
             <div className="btn-box">
+<<<<<<< HEAD
               <a href="/login" className="btn">
                 Login
               </a>
               <a href="/signup" className="btn">
+=======
+              <a href="/" className="btn">
+                Login
+              </a>
+              <a href="/" className="btn">
+>>>>>>> 0e6bdd6b5d9944ecc4e2be1e73d89abe45dcdb44
                 Register
               </a>
             </div>
